@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bernie's Portfolio</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+    <!-- Header -->
+<header>
+	<div class="container">
+			
+
+		<div class="header-grid">
+			<div id="logo"><a href="#"><img src="logo-white.png"></a></div>
+			<a id="mobile-btn">
+				
+			<div class="hamburger-menu"></div>
+			<div class="hamburger-menu"></div>
+			<div class="hamburger-menu"></div>
+			</a>
+			
+			<div class="nav">
+				
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+
+				</ul>
+			</div>
+		</div>
+</div>
+</header>
+
+
+	<!-- Banner -->
+	<section id="about" class="about-padding">
+		<div class="container">
+			<div class="about-grid">
+			<div><img src="photo.jpg"></div> 
+	
+			<div>
+	
+						<h3>SKILLS: <span id="typed"></span></h3> 
+				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+			</div>
+		
+		</div>	
+	
+	</div>
+	
+	</section>
+	
+	<!-- Skills -->
+	<section id="skills" class="skills-padding">
+		<div class="container">
+			
+				<h1 class="title">Skills</h1>
+				<div class="skill-grid">
+				
+				<div><h4>HTML5</h4> </div>
+				<div><h4>CSS3</h4></div>
+				<div><h4>JQUERY</h4></div>
+				<div><h4>WORDPRESS</h4></div>
+				<div><h4>PHOTOSHOP</h4></div>
+				   
+				</div>
+		</div>
+	
+	
+	</section>
+	
+	<!-- Portfolio -->
+	<section id="portfolio" class="portfolio-padding">
+	
+		<div class="container">
+			<h1 class="title">Portfolio</h1>
+	
+			<div class="portfolio-grid">
+				<div><img src="roofing.jpg"></div>
+				<div><img src="roofing.jpg"></div>
+				<div><img src="roofing.jpg"></div>
+				
+				<div><img src="roofing.jpg"></div>
+				<div><img src="roofing.jpg"></div>
+				<div><img src="roofing.jpg"></div>
+	
+			</div>
+		</div>
+		
+	
+	</section>
+	
+	<!-- Contact -->
+	<section id="contact">
+	
+		<div class="container">
+			<h1 class="title">Contact</h1>
+			<div class="contact-grid">	
+					<div>
+						Phone:</br>
+						Email: </br>
+						Social Media:</br>
+					</div>
+			
+					<div>
+			
+						<form id="form">
+							<label>Name</label> 
+							<div><input type="text" name=""></div>
+									
+							<label>Email</label> 
+							<div><input type="email" name=""></div>
+									
+							<label>Phone</label> 
+							<div><input type="tel" name=""></div>
+									
+							<label>Message </label>
+							<div><input type="text" name=""></div>
+									
+			
+						</form>
+					</div>
+			</div>
+		</div>
+	
+	
+	</section>
+
+
+
+
+<!-- Footer -->
+
+<footer> 
+
+
+	<div class="container">
+Copyright 	&copy; 2019 
+	</div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+
+$(document).ready(function(){
+
+	$('a#mobile-btn').click(function(){
+		$('ul').slideToggle();
+	});
+
+});
+
+
+
+</script>
+
+<!-- Typed -->
+<script>
+
+var typed2 = new Typed('#typed', {
+    strings: ['HTML5', 'CSS', 'JQUERY', 'WORDPRESS', 'PHOTOSHOP'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    fadeOut: true,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
